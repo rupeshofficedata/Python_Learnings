@@ -1,0 +1,9 @@
+# 1. Ignore everything at the root level
+/*
+
+# 2. Allow the .gitignore file itself so changes to it are tracked
+!.gitignore
+
+# 3. Allow the specific folder you want to upload
+!/Day1/
+!readme.md
